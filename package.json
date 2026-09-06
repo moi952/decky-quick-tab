@@ -1,6 +1,6 @@
 {
   "name": "decky-quick-tab",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "display_name": "Quick Tab",
   "description": "Experimental: adds a dedicated icon for your own plugins directly in Steam's Quick Access Menu, instead of going through Decky's own plugin list.",
   "type": "module",
