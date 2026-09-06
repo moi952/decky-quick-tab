@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "실험적"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Steam 빠른 액세스 메뉴의 탭 순서를 바꾸고, 사용하지 않는 탭을 숨기고, 원하는 플러그인을 직접 고정할 수 있습니다.",
+    "tabs_title": "탭",
+    "available_title": "설치된 플러그인",
+    "plugins_unavailable": "빠른 액세스 메뉴의 탭을 읽을 수 없습니다. 다시 열어보세요.",
+    "no_more_plugins": "다른 플러그인을 찾을 수 없습니다.",
+    "tab_notifications": "알림",
+    "tab_remote_play": "리모트 플레이 투게더",
+    "tab_chat": "채팅",
+    "tab_friends": "친구",
+    "tab_settings": "설정",
+    "tab_perf": "성능",
+    "tab_help": "도움말",
+    "tab_music": "음악",
+    "tab_decky": "Decky Loader",
+    "action_remove": "제거",
+    "action_cancel": "취소",
+    "action_hide": "숨기기",
+    "action_show": "표시",
+    "confirm_remove_description": "\"{{name}}\"을(를) 빠른 액세스 메뉴에서 제거하시겠습니까?",
+    "apply_note_title": "변경 사항 적용",
+    "apply_note_description": "변경 사항(순서, 숨김, 고정)을 적용하려면 빠른 액세스 메뉴를 닫았다가 다시 여세요 — 다음에 Steam을 시작할 때도 자동으로 적용됩니다.",
+    "action_restart_steam": "Steam 재시작",
+    "confirm_restart_description": "지금 Steam을 재시작하시겠습니까? 실행 중인 게임이 종료됩니다.",
+    "open_settings": "설정"
+  },
+  "settings": {
+    "settings_title": "설정",
+    "update_available": "업데이트 사용 가능: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "0.1.0의 새로운 기능",
+      "items": [
+        "내 플러그인을 Steam 빠른 액세스 메뉴 탭에 직접 고정",
+        "기본 탭(알림, 채팅, 도움말, 음악) 순서 변경 및 숨기기",
+        "설정 페이지: 플러그인 자동 업데이트, 버그 신고, 기능 요청, 개발 지원"
+      ]
+    }
+  }
+}

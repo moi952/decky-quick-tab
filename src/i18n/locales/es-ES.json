@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimental"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Reordena las pestañas del menú rápido de Steam, oculta las que no uses y ancla tus propios plugins directamente en él.",
+    "tabs_title": "Pestañas",
+    "available_title": "Plugins instalados",
+    "plugins_unavailable": "No se pudieron leer las pestañas del menú rápido. Intenta reabrirlo.",
+    "no_more_plugins": "No se encontraron más plugins.",
+    "tab_notifications": "Notificaciones",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Amigos",
+    "tab_settings": "Ajustes",
+    "tab_perf": "Rendimiento",
+    "tab_help": "Ayuda",
+    "tab_music": "Música",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Quitar",
+    "action_cancel": "Cancelar",
+    "action_hide": "Ocultar",
+    "action_show": "Mostrar",
+    "confirm_remove_description": "¿Quitar \"{{name}}\" del menú rápido?",
+    "apply_note_title": "Aplicando cambios",
+    "apply_note_description": "Cierra y vuelve a abrir el menú rápido para aplicar un cambio (orden, ocultación, anclaje) — también se aplicará automáticamente la próxima vez que se inicie Steam.",
+    "action_restart_steam": "Reiniciar Steam",
+    "confirm_restart_description": "¿Reiniciar Steam ahora? Se cerrará cualquier juego en curso.",
+    "open_settings": "Ajustes"
+  },
+  "settings": {
+    "settings_title": "Ajustes",
+    "update_available": "Actualización disponible: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Novedades de la 0.1.0",
+      "items": [
+        "Ancla tus propios plugins directamente en las pestañas del menú rápido de Steam",
+        "Reordena y oculta las pestañas nativas (Notificaciones, Chat, Ayuda, Música)",
+        "Página de ajustes: autoactualización del plugin, reportar errores, pedir funciones, apoyar el desarrollo"
+      ]
+    }
+  }
+}

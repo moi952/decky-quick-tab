@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimental"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Reordena os separadores do menu de acesso rápido da Steam, oculta os que não usas e fixa os teus próprios plugins diretamente nele.",
+    "tabs_title": "Separadores",
+    "available_title": "Plugins instalados",
+    "plugins_unavailable": "Não foi possível ler os separadores do menu de acesso rápido. Tenta reabri-lo.",
+    "no_more_plugins": "Não foram encontrados mais plugins.",
+    "tab_notifications": "Notificações",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Amigos",
+    "tab_settings": "Definições",
+    "tab_perf": "Desempenho",
+    "tab_help": "Ajuda",
+    "tab_music": "Música",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Remover",
+    "action_cancel": "Cancelar",
+    "action_hide": "Ocultar",
+    "action_show": "Mostrar",
+    "confirm_remove_description": "Remover \"{{name}}\" do menu de acesso rápido?",
+    "apply_note_title": "A aplicar alterações",
+    "apply_note_description": "Fecha e reabre o menu de acesso rápido para aplicar uma alteração (ordem, ocultação, fixação) — também será aplicada automaticamente da próxima vez que a Steam iniciar.",
+    "action_restart_steam": "Reiniciar a Steam",
+    "confirm_restart_description": "Reiniciar a Steam agora? Qualquer jogo em curso será fechado.",
+    "open_settings": "Definições"
+  },
+  "settings": {
+    "settings_title": "Definições",
+    "update_available": "Atualização disponível: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Novidades da 0.1.0",
+      "items": [
+        "Fixa os teus próprios plugins diretamente nos separadores do menu de acesso rápido da Steam",
+        "Reordena e oculta os separadores nativos (Notificações, Chat, Ajuda, Música)",
+        "Página de definições: atualização automática do plugin, reportar erro, pedir funcionalidade, apoiar o desenvolvimento"
+      ]
+    }
+  }
+}

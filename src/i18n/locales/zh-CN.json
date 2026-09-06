@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "实验性"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "重新排列 Steam 快速访问菜单的标签页，隐藏你不使用的标签页，并将你自己的插件直接固定在其中。",
+    "tabs_title": "标签页",
+    "available_title": "已安装的插件",
+    "plugins_unavailable": "无法读取快速访问菜单的标签页。请尝试重新打开它。",
+    "no_more_plugins": "未找到其他插件。",
+    "tab_notifications": "通知",
+    "tab_remote_play": "远程畅玩",
+    "tab_chat": "聊天",
+    "tab_friends": "好友",
+    "tab_settings": "设置",
+    "tab_perf": "性能",
+    "tab_help": "帮助",
+    "tab_music": "音乐",
+    "tab_decky": "Decky Loader",
+    "action_remove": "移除",
+    "action_cancel": "取消",
+    "action_hide": "隐藏",
+    "action_show": "显示",
+    "confirm_remove_description": "要从快速访问菜单中移除“{{name}}”吗？",
+    "apply_note_title": "应用更改",
+    "apply_note_description": "关闭并重新打开快速访问菜单以应用更改（顺序、隐藏、固定）——下次启动 Steam 时也会自动应用。",
+    "action_restart_steam": "重启 Steam",
+    "confirm_restart_description": "现在重启 Steam？所有正在运行的游戏都将关闭。",
+    "open_settings": "设置"
+  },
+  "settings": {
+    "settings_title": "设置",
+    "update_available": "有可用更新：v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "0.1.0 新增内容",
+      "items": [
+        "将你自己的插件直接固定到 Steam 快速访问菜单的标签页中",
+        "重新排列并隐藏原生标签页（通知、聊天、帮助、音乐）",
+        "设置页面：插件自我更新、报告错误、请求功能、支持开发"
+      ]
+    }
+  }
+}

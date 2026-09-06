@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Sperimentale"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Riordina le schede del menu rapido di Steam, nascondi quelle che non usi ed aggancia i tuoi plugin direttamente al suo interno.",
+    "tabs_title": "Schede",
+    "available_title": "Plugin installati",
+    "plugins_unavailable": "Impossibile leggere le schede del menu rapido. Prova a riaprirlo.",
+    "no_more_plugins": "Nessun altro plugin trovato.",
+    "tab_notifications": "Notifiche",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Amici",
+    "tab_settings": "Impostazioni",
+    "tab_perf": "Prestazioni",
+    "tab_help": "Aiuto",
+    "tab_music": "Musica",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Rimuovi",
+    "action_cancel": "Annulla",
+    "action_hide": "Nascondi",
+    "action_show": "Mostra",
+    "confirm_remove_description": "Rimuovere \"{{name}}\" dal menu rapido?",
+    "apply_note_title": "Applicazione delle modifiche",
+    "apply_note_description": "Chiudi e riapri il menu rapido per applicare una modifica (ordine, occultamento, aggancio) — verrà applicata automaticamente anche al prossimo avvio di Steam.",
+    "action_restart_steam": "Riavvia Steam",
+    "confirm_restart_description": "Riavviare Steam ora? Qualsiasi gioco in corso verrà chiuso.",
+    "open_settings": "Impostazioni"
+  },
+  "settings": {
+    "settings_title": "Impostazioni",
+    "update_available": "Aggiornamento disponibile: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Novità della 0.1.0",
+      "items": [
+        "Aggancia i tuoi plugin direttamente nelle schede del menu rapido di Steam",
+        "Riordina e nascondi le schede native (Notifiche, Chat, Aiuto, Musica)",
+        "Pagina impostazioni: aggiornamento del plugin, segnalazione bug, richiesta funzionalità, supporto allo sviluppo"
+      ]
+    }
+  }
+}

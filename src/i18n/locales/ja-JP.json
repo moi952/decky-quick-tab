@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "実験的"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Steamのクイックアクセスメニューのタブを並べ替えたり、使わないタブを非表示にしたり、自分のプラグインを直接ピン留めできます。",
+    "tabs_title": "タブ",
+    "available_title": "インストール済みプラグイン",
+    "plugins_unavailable": "クイックアクセスメニューのタブを読み取れませんでした。開き直してみてください。",
+    "no_more_plugins": "他のプラグインは見つかりませんでした。",
+    "tab_notifications": "通知",
+    "tab_remote_play": "リモートプレイ Together",
+    "tab_chat": "チャット",
+    "tab_friends": "フレンド",
+    "tab_settings": "設定",
+    "tab_perf": "パフォーマンス",
+    "tab_help": "ヘルプ",
+    "tab_music": "音楽",
+    "tab_decky": "Decky Loader",
+    "action_remove": "削除",
+    "action_cancel": "キャンセル",
+    "action_hide": "非表示",
+    "action_show": "表示",
+    "confirm_remove_description": "「{{name}}」をクイックアクセスメニューから削除しますか?",
+    "apply_note_title": "変更を適用",
+    "apply_note_description": "変更(順序、非表示、ピン留め)を適用するにはクイックアクセスメニューを閉じて開き直してください — 次回のSteam起動時にも自動的に適用されます。",
+    "action_restart_steam": "Steamを再起動",
+    "confirm_restart_description": "今すぐSteamを再起動しますか? 実行中のゲームは終了されます。",
+    "open_settings": "設定"
+  },
+  "settings": {
+    "settings_title": "設定",
+    "update_available": "アップデートが利用可能です: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "0.1.0の新機能",
+      "items": [
+        "自分のプラグインをSteamのクイックアクセスメニューのタブに直接ピン留め",
+        "ネイティブタブ(通知、チャット、ヘルプ、音楽)を並べ替え・非表示",
+        "設定ページ: プラグインの自動更新、バグ報告、機能リクエスト、開発の支援"
+      ]
+    }
+  }
+}

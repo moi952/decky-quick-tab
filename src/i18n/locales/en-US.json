@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimental"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Reorder Steam's Quick Access Menu tabs, hide the ones you don't use, and pin your own plugins directly into it.",
+    "tabs_title": "Tabs",
+    "available_title": "Installed plugins",
+    "plugins_unavailable": "Couldn't read the Quick Access Menu's tabs. Try reopening it.",
+    "no_more_plugins": "No other plugins found.",
+    "tab_notifications": "Notifications",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Friends",
+    "tab_settings": "Settings",
+    "tab_perf": "Performance",
+    "tab_help": "Help",
+    "tab_music": "Music",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Remove",
+    "action_cancel": "Cancel",
+    "action_hide": "Hide",
+    "action_show": "Show",
+    "confirm_remove_description": "Remove \"{{name}}\" from the Quick Access Menu?",
+    "apply_note_title": "Applying changes",
+    "apply_note_description": "Close and reopen the Quick Access Menu to apply a change (order, hiding, pinning) — it'll also apply automatically the next time Steam starts.",
+    "action_restart_steam": "Restart Steam",
+    "confirm_restart_description": "Restart Steam now? Any running game will be closed.",
+    "open_settings": "Settings"
+  },
+  "settings": {
+    "settings_title": "Settings",
+    "update_available": "Update available: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "What's new in 0.1.0",
+      "items": [
+        "Pin your own plugins directly into Steam's Quick Access Menu tabs",
+        "Reorder and hide native tabs (Notifications, Chat, Help, Music)",
+        "Settings page: plugin self-update, bug report, feature request, support the development"
+      ]
+    }
+  }
+}

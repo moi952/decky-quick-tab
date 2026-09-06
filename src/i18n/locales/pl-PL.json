@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Eksperymentalne"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Zmień kolejność kart menu szybkiego dostępu Steam, ukryj te, których nie używasz, i przypnij własne wtyczki bezpośrednio w nim.",
+    "tabs_title": "Karty",
+    "available_title": "Zainstalowane wtyczki",
+    "plugins_unavailable": "Nie udało się odczytać kart menu szybkiego dostępu. Spróbuj otworzyć je ponownie.",
+    "no_more_plugins": "Nie znaleziono innych wtyczek.",
+    "tab_notifications": "Powiadomienia",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Czat",
+    "tab_friends": "Znajomi",
+    "tab_settings": "Ustawienia",
+    "tab_perf": "Wydajność",
+    "tab_help": "Pomoc",
+    "tab_music": "Muzyka",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Usuń",
+    "action_cancel": "Anuluj",
+    "action_hide": "Ukryj",
+    "action_show": "Pokaż",
+    "confirm_remove_description": "Usunąć \"{{name}}\" z menu szybkiego dostępu?",
+    "apply_note_title": "Stosowanie zmian",
+    "apply_note_description": "Zamknij i otwórz ponownie menu szybkiego dostępu, aby zastosować zmianę (kolejność, ukrywanie, przypięcie) — zostanie ona również zastosowana automatycznie przy następnym uruchomieniu Steam.",
+    "action_restart_steam": "Uruchom ponownie Steam",
+    "confirm_restart_description": "Uruchomić ponownie Steam teraz? Wszystkie uruchomione gry zostaną zamknięte.",
+    "open_settings": "Ustawienia"
+  },
+  "settings": {
+    "settings_title": "Ustawienia",
+    "update_available": "Dostępna aktualizacja: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Nowości w wersji 0.1.0",
+      "items": [
+        "Przypnij własne wtyczki bezpośrednio do kart menu szybkiego dostępu Steam",
+        "Zmieniaj kolejność i ukrywaj natywne karty (Powiadomienia, Czat, Pomoc, Muzyka)",
+        "Strona ustawień: aktualizacja wtyczki, zgłaszanie błędów, propozycje funkcji, wsparcie rozwoju"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+name: Build Decky Plugin
+
+on:
+    pull_request:
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "20"
+
+            - name: Install pnpm
+              run: npm install -g pnpm
+
+            - name: Install dependencies
+              run: pnpm install
+
+            - name: Setup Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.11"
+
+            - name: Vendor decky-plugin-toolkit
+              run: |
+                  set -e
+                  pip3 install --target py_modules --no-deps --upgrade \
+                    "git+https://github.com/moi952/decky-plugin-toolkit.git@v0.1.0"
+
+            - name: Build plugin
+              run: |
+                  set -e
+                  pnpm build
+
+            - name: Create plugin zip
+              run: |
+                  set -e
+                  PLUGIN_NAME=$(node -p "require('./package.json').name")
+                  mkdir -p artifact/$PLUGIN_NAME
+                  cp -r dist artifact/$PLUGIN_NAME/
+                  cp main.py plugin.json package.json project.config.json artifact/$PLUGIN_NAME/
+                  cp -r py_modules artifact/$PLUGIN_NAME/
+                  cp LICENSE* README* artifact/$PLUGIN_NAME/ || true
+
+            - name: Slugify branch name
+              id: slug
+              run: echo "branch=$(echo '${{ github.head_ref || github.ref_name }}' | sed 's/\//-/g')" >> $GITHUB_OUTPUT
+
+            - name: Upload build artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ steps.slug.outputs.branch }}
+                  path: artifact/
+                  retention-days: 7

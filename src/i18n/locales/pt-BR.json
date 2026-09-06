@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimental"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Reordene as abas do menu de acesso rápido da Steam, oculte as que você não usa e fixe seus próprios plugins diretamente nele.",
+    "tabs_title": "Abas",
+    "available_title": "Plugins instalados",
+    "plugins_unavailable": "Não foi possível ler as abas do menu de acesso rápido. Tente reabri-lo.",
+    "no_more_plugins": "Nenhum outro plugin encontrado.",
+    "tab_notifications": "Notificações",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Amigos",
+    "tab_settings": "Configurações",
+    "tab_perf": "Desempenho",
+    "tab_help": "Ajuda",
+    "tab_music": "Música",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Remover",
+    "action_cancel": "Cancelar",
+    "action_hide": "Ocultar",
+    "action_show": "Mostrar",
+    "confirm_remove_description": "Remover \"{{name}}\" do menu de acesso rápido?",
+    "apply_note_title": "Aplicando alterações",
+    "apply_note_description": "Feche e reabra o menu de acesso rápido para aplicar uma alteração (ordem, ocultação, fixação) — ela também será aplicada automaticamente na próxima vez que a Steam for iniciada.",
+    "action_restart_steam": "Reiniciar a Steam",
+    "confirm_restart_description": "Reiniciar a Steam agora? Qualquer jogo em execução será fechado.",
+    "open_settings": "Configurações"
+  },
+  "settings": {
+    "settings_title": "Configurações",
+    "update_available": "Atualização disponível: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Novidades da 0.1.0",
+      "items": [
+        "Fixe seus próprios plugins diretamente nas abas do menu de acesso rápido da Steam",
+        "Reordene e oculte as abas nativas (Notificações, Chat, Ajuda, Música)",
+        "Página de configurações: atualização automática do plugin, relatar bug, sugerir funcionalidade, apoiar o desenvolvimento"
+      ]
+    }
+  }
+}

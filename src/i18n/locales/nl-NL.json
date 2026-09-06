@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimenteel"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Herschik de tabbladen van Steam's snelle toegangsmenu, verberg de tabbladen die je niet gebruikt en zet je eigen plugins er rechtstreeks in vast.",
+    "tabs_title": "Tabbladen",
+    "available_title": "Geïnstalleerde plugins",
+    "plugins_unavailable": "Kon de tabbladen van het snelle toegangsmenu niet lezen. Probeer het opnieuw te openen.",
+    "no_more_plugins": "Geen andere plugins gevonden.",
+    "tab_notifications": "Meldingen",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Vrienden",
+    "tab_settings": "Instellingen",
+    "tab_perf": "Prestaties",
+    "tab_help": "Help",
+    "tab_music": "Muziek",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Verwijderen",
+    "action_cancel": "Annuleren",
+    "action_hide": "Verbergen",
+    "action_show": "Tonen",
+    "confirm_remove_description": "\"{{name}}\" verwijderen uit het snelle toegangsmenu?",
+    "apply_note_title": "Wijzigingen toepassen",
+    "apply_note_description": "Sluit het snelle toegangsmenu en open het opnieuw om een wijziging (volgorde, verbergen, vastzetten) toe te passen — dit wordt ook automatisch toegepast bij de volgende start van Steam.",
+    "action_restart_steam": "Steam opnieuw opstarten",
+    "confirm_restart_description": "Steam nu opnieuw opstarten? Elk actief spel wordt afgesloten.",
+    "open_settings": "Instellingen"
+  },
+  "settings": {
+    "settings_title": "Instellingen",
+    "update_available": "Update beschikbaar: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Nieuw in 0.1.0",
+      "items": [
+        "Zet je eigen plugins rechtstreeks vast in de tabbladen van Steam's snelle toegangsmenu",
+        "Herschik en verberg native tabbladen (Meldingen, Chat, Help, Muziek)",
+        "Instellingenpagina: plugin-update, bug melden, functie aanvragen, ontwikkeling steunen"
+      ]
+    }
+  }
+}

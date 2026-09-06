@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Expérimental"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Réordonne les onglets du menu rapide de Steam, cache ceux que tu n'utilises pas, et épingle tes propres plugins dedans.",
+    "tabs_title": "Onglets",
+    "available_title": "Plugins installés",
+    "plugins_unavailable": "Impossible de lire les onglets du menu rapide. Essaie de le rouvrir.",
+    "no_more_plugins": "Aucun autre plugin trouvé.",
+    "tab_notifications": "Notifications",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Amis",
+    "tab_settings": "Réglages",
+    "tab_perf": "Performance",
+    "tab_help": "Aide",
+    "tab_music": "Musique",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Retirer",
+    "action_cancel": "Annuler",
+    "action_hide": "Cacher",
+    "action_show": "Afficher",
+    "confirm_remove_description": "Retirer \"{{name}}\" du menu rapide ?",
+    "apply_note_title": "Application des changements",
+    "apply_note_description": "Ferme puis rouvre le menu rapide pour appliquer un changement (ordre, masquage, épinglage) — il sera aussi appliqué automatiquement au prochain démarrage de Steam.",
+    "action_restart_steam": "Redémarrer Steam",
+    "confirm_restart_description": "Redémarrer Steam maintenant ? Les jeux en cours seront fermés.",
+    "open_settings": "Réglages"
+  },
+  "settings": {
+    "settings_title": "Réglages",
+    "update_available": "Mise à jour disponible : v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Nouveautés de la 0.1.0",
+      "items": [
+        "Épingle tes plugins directement dans les onglets du menu rapide de Steam",
+        "Réordonne et cache les onglets natifs (Notifications, Chat, Aide, Musique)",
+        "Page Réglages : mise à jour du plugin, signaler un bug, proposer une fonctionnalité, soutenir le développement"
+      ]
+    }
+  }
+}

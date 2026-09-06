@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Deneysel"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Steam'in hızlı erişim menüsündeki sekmeleri yeniden düzenle, kullanmadıklarını gizle ve kendi eklentilerini doğrudan içine sabitle.",
+    "tabs_title": "Sekmeler",
+    "available_title": "Yüklü eklentiler",
+    "plugins_unavailable": "Hızlı erişim menüsünün sekmeleri okunamadı. Yeniden açmayı dene.",
+    "no_more_plugins": "Başka eklenti bulunamadı.",
+    "tab_notifications": "Bildirimler",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Sohbet",
+    "tab_friends": "Arkadaşlar",
+    "tab_settings": "Ayarlar",
+    "tab_perf": "Performans",
+    "tab_help": "Yardım",
+    "tab_music": "Müzik",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Kaldır",
+    "action_cancel": "İptal",
+    "action_hide": "Gizle",
+    "action_show": "Göster",
+    "confirm_remove_description": "\"{{name}}\" hızlı erişim menüsünden kaldırılsın mı?",
+    "apply_note_title": "Değişiklikler uygulanıyor",
+    "apply_note_description": "Bir değişikliği (sıra, gizleme, sabitleme) uygulamak için hızlı erişim menüsünü kapatıp yeniden aç — bir sonraki Steam başlatmasında da otomatik olarak uygulanacaktır.",
+    "action_restart_steam": "Steam'i yeniden başlat",
+    "confirm_restart_description": "Steam şimdi yeniden başlatılsın mı? Çalışan tüm oyunlar kapatılacak.",
+    "open_settings": "Ayarlar"
+  },
+  "settings": {
+    "settings_title": "Ayarlar",
+    "update_available": "Güncelleme mevcut: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "0.1.0'daki yenilikler",
+      "items": [
+        "Kendi eklentilerini doğrudan Steam'in hızlı erişim menüsü sekmelerine sabitle",
+        "Yerel sekmeleri (Bildirimler, Sohbet, Yardım, Müzik) yeniden düzenle ve gizle",
+        "Ayarlar sayfası: eklenti kendi kendini güncelleme, hata bildirimi, özellik talebi, geliştirmeyi destekleme"
+      ]
+    }
+  }
+}

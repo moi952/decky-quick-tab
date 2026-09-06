@@ -1,0 +1,46 @@
+{
+  "common": {
+    "experimental_badge": "Experimentell"
+  },
+  "panel": {
+    "title": "Quick Tab",
+    "description": "Ordne die Tabs des Schnellzugriffsmenüs von Steam neu an, blende die aus, die du nicht brauchst, und pinne deine eigenen Plugins direkt hinein.",
+    "tabs_title": "Tabs",
+    "available_title": "Installierte Plugins",
+    "plugins_unavailable": "Die Tabs des Schnellzugriffsmenüs konnten nicht gelesen werden. Versuche, es erneut zu öffnen.",
+    "no_more_plugins": "Keine weiteren Plugins gefunden.",
+    "tab_notifications": "Benachrichtigungen",
+    "tab_remote_play": "Remote Play Together",
+    "tab_chat": "Chat",
+    "tab_friends": "Freunde",
+    "tab_settings": "Einstellungen",
+    "tab_perf": "Leistung",
+    "tab_help": "Hilfe",
+    "tab_music": "Musik",
+    "tab_decky": "Decky Loader",
+    "action_remove": "Entfernen",
+    "action_cancel": "Abbrechen",
+    "action_hide": "Ausblenden",
+    "action_show": "Einblenden",
+    "confirm_remove_description": "\"{{name}}\" aus dem Schnellzugriffsmenü entfernen?",
+    "apply_note_title": "Änderungen übernehmen",
+    "apply_note_description": "Schließe und öffne das Schnellzugriffsmenü erneut, um eine Änderung (Reihenfolge, Ausblenden, Anheften) zu übernehmen — sie wird auch automatisch beim nächsten Start von Steam angewendet.",
+    "action_restart_steam": "Steam neu starten",
+    "confirm_restart_description": "Steam jetzt neu starten? Laufende Spiele werden geschlossen.",
+    "open_settings": "Einstellungen"
+  },
+  "settings": {
+    "settings_title": "Einstellungen",
+    "update_available": "Update verfügbar: v{{version}}"
+  },
+  "whats_new": {
+    "v0_1_0": {
+      "title": "Neuerungen in 0.1.0",
+      "items": [
+        "Pinne deine eigenen Plugins direkt in die Tabs des Schnellzugriffsmenüs von Steam",
+        "Native Tabs neu anordnen und ausblenden (Benachrichtigungen, Chat, Hilfe, Musik)",
+        "Einstellungsseite: Plugin-Update, Fehlerbericht, Funktionswunsch, Entwicklung unterstützen"
+      ]
+    }
+  }
+}

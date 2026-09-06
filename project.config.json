@@ -1,0 +1,8 @@
+{
+  "githubOwner": "moi952",
+  "githubRepo": "decky-quick-tab",
+  "pluginName": "decky-quick-tab",
+  "displayName": "Quick Tab",
+  "description": "Pin your own installed plugins directly into Steam's Quick Access Menu, reorder and hide native tabs, instead of going through Decky's own aggregated plugin list.",
+  "author": "moi952"
+}

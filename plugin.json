@@ -1,0 +1,17 @@
+{
+  "name": "Quick Tab",
+  "author": "moi952",
+  "version": "0.0.9",
+  "flags": [
+    "debug"
+  ],
+  "api_version": 1,
+  "publish": {
+    "tags": [
+      "qam",
+      "shortcut",
+      "experimental"
+    ],
+    "description": "Experimental: adds a dedicated icon for your own plugins directly in Steam's Quick Access Menu, instead of going through Decky's own plugin list."
+  }
+}
