@@ -35,6 +35,7 @@ jobs:
                   set -e
                   pip3 install --target py_modules --no-deps --upgrade \
                     "git+https://github.com/moi952/decky-plugin-toolkit.git@v0.1.0"
+                  find py_modules -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
 
             - name: Build plugin
               run: |
