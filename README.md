@@ -45,29 +45,19 @@ Decky Proton Launch running in its own Quick Access Menu tab, no different from 
 
 ## Installation
 
-Download the latest release zip from the [Releases page](https://github.com/moi952/decky-quick-tab/releases/latest) and load it via Decky Loader, or build from source:
+> **Not yet on the Decky Store.** Install manually via Developer Mode.
 
-1. Clone the repository:
+1. Enable **Developer Mode** in Decky - General settings
+2. Go to **Developer** in Decky settings
+3. Install from URL:
+   `https://github.com/moi952/decky-quick-tab/releases/latest/download/decky-quick-tab.zip`
+   > ⚠️ Decky Loader 3.3 and newer shows a *Third-Party Plugin Installation* warning here, because the plugin is not from the Decky Store. That is expected: wait 5 seconds and confirm. It only appears once, and updates install by themselves afterwards.
 
-```bash
-git clone https://github.com/moi952/decky-quick-tab.git
-```
-
-2. Install dependencies:
-
-```bash
-sudo npm install -g pnpm@9
-pnpm install
-```
-
-3. Build the plugin:
-
-```bash
-pnpm run build
-./package.sh
-```
-
-4. Load the plugin via Decky Loader.
+> **A note on automatic updates.** Decky owns the plugin's top-level directory,
+> so the built-in updater can rewrite existing files but cannot create new ones.
+> A release that adds a file at the top level therefore has to be installed the
+> normal way - *Install plugin from URL*, above - rather than through the
+> automatic update. The release notes say so whenever that is the case.
 
 ---
 
