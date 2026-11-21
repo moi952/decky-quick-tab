@@ -230,7 +230,12 @@ export const QuickTabPanel: React.FC = () => {
           Steam's own native tab icons carry built-in padding — filling the
           box completely made ours look bigger than the natives right next
           to them. */}
-      <style>{`.qt-icon-box svg, .qt-icon-box img { width: 80% !important; height: 80% !important; }`}</style>
+      <style>{`
+        .qt-icon-box svg, .qt-icon-box img { width: 80% !important; height: 80% !important; }
+        /* A theme recolours the svg of a focused button itself, which beats the colour
+           inherited from the box: pin it on the svg so the icon stays white on focus. */
+        .qt-icon-box svg { color: #fff !important; }
+      `}</style>
 
       <PanelSection>
         <ActionButton onClick={goToSettings} width="100%">
