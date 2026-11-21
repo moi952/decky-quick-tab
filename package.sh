@@ -32,7 +32,7 @@ log "Building frontend..."
 # package.json.
 log "Vendoring decky-plugin-toolkit..."
 pip3 install --target "$PLUGIN_DIR/py_modules" --no-deps --upgrade \
-  "git+https://github.com/moi952/decky-plugin-toolkit.git@v0.1.0"
+  "git+https://github.com/moi952/decky-plugin-toolkit.git@v0.1.1"
 
 mkdir -p "$OUT_DIR"
 n=1
