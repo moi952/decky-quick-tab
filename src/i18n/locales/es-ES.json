@@ -41,6 +41,12 @@
         "Reordena y oculta las pestañas nativas (Notificaciones, Chat, Ayuda, Música)",
         "Página de ajustes: autoactualización del plugin, reportar errores, pedir funciones, apoyar el desarrollo"
       ]
+    },
+    "v0_1_1": {
+      "title": "Novedades de la 0.1.1",
+      "items": [
+        "Corregido: Quick Tab vuelve a funcionar con la nueva actualización del cliente de Steam (beta)"
+      ]
     }
   }
 }

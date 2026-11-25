@@ -41,6 +41,12 @@
         "Native Tabs neu anordnen und ausblenden (Benachrichtigungen, Chat, Hilfe, Musik)",
         "Einstellungsseite: Plugin-Update, Fehlerbericht, Funktionswunsch, Entwicklung unterstützen"
       ]
+    },
+    "v0_1_1": {
+      "title": "Neuerungen in 0.1.1",
+      "items": [
+        "Behoben: Quick Tab funktioniert wieder mit dem neuen Steam-Client-Update (Beta)"
+      ]
     }
   }
 }

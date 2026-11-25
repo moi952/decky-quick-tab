@@ -41,6 +41,12 @@
         "Reordene e oculte as abas nativas (Notificações, Chat, Ajuda, Música)",
         "Página de configurações: atualização automática do plugin, relatar bug, sugerir funcionalidade, apoiar o desenvolvimento"
       ]
+    },
+    "v0_1_1": {
+      "title": "Novidades da 0.1.1",
+      "items": [
+        "Corrigido: o Quick Tab volta a funcionar com a nova atualização do cliente Steam (beta)"
+      ]
     }
   }
 }

@@ -41,6 +41,12 @@
         "Reorder and hide native tabs (Notifications, Chat, Help, Music)",
         "Settings page: plugin self-update, bug report, feature request, support the development"
       ]
+    },
+    "v0_1_1": {
+      "title": "What's new in 0.1.1",
+      "items": [
+        "Fixed Quick Tab not working with Steam's new client update (beta)"
+      ]
     }
   }
 }

@@ -41,6 +41,12 @@
         "Yerel sekmeleri (Bildirimler, Sohbet, Yardım, Müzik) yeniden düzenle ve gizle",
         "Ayarlar sayfası: eklenti kendi kendini güncelleme, hata bildirimi, özellik talebi, geliştirmeyi destekleme"
       ]
+    },
+    "v0_1_1": {
+      "title": "0.1.1'daki yenilikler",
+      "items": [
+        "Düzeltme: Quick Tab, Steam'in yeni istemci güncellemesiyle (beta) yeniden çalışıyor"
+      ]
     }
   }
 }

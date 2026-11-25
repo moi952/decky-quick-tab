@@ -463,6 +463,34 @@ export const refreshNativeTabsCache = () => {
   }
 };
 
+// Steam's client moved from webpack to native ES modules (Vite chunks):
+// the QAM renderers are no longer *exports* of a webpack module but plain
+// module-scope variables. Newer Decky Loader builds expose those through
+// `DFL.findVar` (same filter signature as findModuleByExport's); older
+// Loader + older Steam still only have webpack exports. Try the legacy
+// lookup first, then fall back, so one build works on both.
+const findQamRenderer = (marker: string): any => {
+  const matches = (e: any) => !!e?.type?.toString?.()?.includes(marker);
+  try {
+    const mod = findModuleByExport(matches);
+    const found = mod && Object.values(mod).find(matches);
+    if (found) return found;
+  } catch (e) {
+    relay(`legacy lookup for ${marker} threw: ${e}`);
+  }
+  try {
+    const findVar = (window as any).DFL?.findVar;
+    const found = typeof findVar === "function" ? findVar(matches) : undefined;
+    if (found) {
+      relay(`found ${marker} via DFL.findVar`);
+      return found;
+    }
+  } catch (e) {
+    relay(`DFL.findVar lookup for ${marker} threw: ${e}`);
+  }
+  return undefined;
+};
+
 export const addQamTabDiscovery = async () => {
   relay("Quick Tab plugin loaded, installing QAM patch");
 
@@ -473,22 +501,10 @@ export const addQamTabDiscovery = async () => {
     relay(`failed to load saved tab settings: ${e}`);
   }
 
-  const qamModule = findModuleByExport((e) =>
-    e?.type?.toString?.()?.includes("QuickAccessMenuBrowserView"),
-  );
-  if (!qamModule) {
-    relay("QAM module not found — Steam's UI internals may have changed.");
-    return;
-  }
-
-  qamBrowserViewRenderer = Object.values(qamModule).find((e: any) =>
-    e?.type?.toString?.()?.includes("QuickAccessMenuBrowserView"),
-  );
-  qamEmbeddedRenderer = Object.values(qamModule).find((e: any) =>
-    e?.type?.toString?.()?.includes("QuickAccessMenuEmbedded"),
-  );
+  qamBrowserViewRenderer = findQamRenderer("QuickAccessMenuBrowserView");
+  qamEmbeddedRenderer = findQamRenderer("QuickAccessMenuEmbedded");
   if (!qamBrowserViewRenderer) {
-    relay("QuickAccessMenuBrowserView renderer not found in module.");
+    relay("QuickAccessMenuBrowserView renderer not found — Steam's UI internals may have changed.");
     return;
   }
   relay("QAM renderer(s) found, patching render output...");

@@ -41,6 +41,12 @@
         "Réordonne et cache les onglets natifs (Notifications, Chat, Aide, Musique)",
         "Page Réglages : mise à jour du plugin, signaler un bug, proposer une fonctionnalité, soutenir le développement"
       ]
+    },
+    "v0_1_1": {
+      "title": "Nouveautés de la 0.1.1",
+      "items": [
+        "Correction : Quick Tab refonctionne avec la nouvelle mise à jour du client Steam (bêta)"
+      ]
     }
   }
 }

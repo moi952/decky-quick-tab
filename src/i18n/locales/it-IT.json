@@ -41,6 +41,12 @@
         "Riordina e nascondi le schede native (Notifiche, Chat, Aiuto, Musica)",
         "Pagina impostazioni: aggiornamento del plugin, segnalazione bug, richiesta funzionalità, supporto allo sviluppo"
       ]
+    },
+    "v0_1_1": {
+      "title": "Novità della 0.1.1",
+      "items": [
+        "Corretto: Quick Tab torna a funzionare con il nuovo aggiornamento del client Steam (beta)"
+      ]
     }
   }
 }
