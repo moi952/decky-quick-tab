@@ -8,11 +8,9 @@
 
 Quick Tab adds each of your installed Decky plugins as its own icon in the Quick Access Menu's native tab bar, instead of going through Decky Loader's own aggregated plugin list. Reorder every tab — native, Decky's own, and pinned plugins alike — and hide the native ones you don't use.
 
-### ✨ New in 0.1.0
+### ✨ New in 0.1.1
 
-- Pin your own plugins directly into Steam's Quick Access Menu tabs
-- Reorder and hide native tabs (Notifications, Chat, Help, Music)
-- Settings page: plugin self-update, bug report, feature request, support the development
+- Fixed Quick Tab not working with Steam's new client update (beta)
 
 ---
 
