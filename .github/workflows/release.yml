@@ -102,14 +102,13 @@ jobs:
         run: |
           set -e
           PLUGIN_NAME=$(node -p "require('./package.json').name")
-          VERSION=$(node -p "require('./package.json').version")
           mkdir -p artifact/$PLUGIN_NAME
           cp -r dist artifact/$PLUGIN_NAME/
           cp main.py plugin.json package.json project.config.json artifact/$PLUGIN_NAME/
           cp -r py_modules artifact/$PLUGIN_NAME/
           cp LICENSE* README* artifact/$PLUGIN_NAME/ || true
           pushd artifact
-          zip -r "$PLUGIN_NAME-v$VERSION.zip" "$PLUGIN_NAME"
+          zip -r "$PLUGIN_NAME.zip" "$PLUGIN_NAME"
           popd
 
       - name: Create GitHub release
@@ -120,7 +119,7 @@ jobs:
           PLUGIN_NAME=$(node -p "require('./package.json').name")
           VERSION=$(node -p "require('./package.json').version")
           gh release create "v$VERSION" \
-            artifact/"$PLUGIN_NAME-v$VERSION.zip" \
+            artifact/"$PLUGIN_NAME.zip" \
             --title "v$VERSION" \
             --notes-file artifact/release_notes.md \
             --draft=false \
